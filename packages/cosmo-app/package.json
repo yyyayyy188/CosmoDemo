@@ -1,0 +1,39 @@
+{
+  "name": "cosmo-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cosmos-kit/keplr": "^2.12.2",
+    "@cosmos-kit/react": "^2.17.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@interchain-ui/react": "^1.23.24",
+    "@keplr-wallet/types": "^0.12.107",
+    "@mui/material": "^5.16.0",
+    "@mui/material-nextjs": "^5.15.11",
+    "@tanstack/react-query": "^5.50.1",
+    "chain-registry": "^1.63.19",
+    "codegen": "1.0.0",
+    "cosmos-kit": "^2.18.4",
+    "next": "14.2.4",
+    "pino-pretty": "^11.2.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

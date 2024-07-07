@@ -1,0 +1,34 @@
+{
+  "name": "codegen",
+  "version": "1.0.0",
+  "main": "./outputs/index.ts",
+  "license": "MIT",  
+  "scripts": {
+    "codegen": "node scripts/codegen.js"
+  },
+  "devDependencies": {
+    "@cosmology/telescope": "^1.8.3",
+    "@protobufs/akash": "^0.1.0",
+    "@protobufs/amino": "^0.0.11",
+    "@protobufs/bcna": "^0.1.0",
+    "@protobufs/comdex": "^0.1.0",
+    "@protobufs/confio": "^0.0.6",
+    "@protobufs/cosmos": "^0.1.0",
+    "@protobufs/cosmos_proto": "^0.0.10",
+    "@protobufs/cosmwasm": "^0.1.1",
+    "@protobufs/gogoproto": "^0.0.10",
+    "@protobufs/google": "^0.0.10",
+    "@protobufs/ibc": "^0.1.0",
+    "@protobufs/injective": "^0.1.1",
+    "@protobufs/juno": "^0.1.0",
+    "@protobufs/omniflix": "^0.1.0",
+    "@protobufs/osmosis": "^0.4.0",
+    "@protobufs/passage3d": "^0.1.0",
+    "@protobufs/persistence": "^0.1.0",
+    "@protobufs/regen": "^0.1.0",
+    "@protobufs/stargaze": "^0.1.0",
+    "@protobufs/tendermint": "^0.0.10",
+    "@protobufs/umee": "^0.1.0"
+  },
+  "useWorkspaces": true
+}

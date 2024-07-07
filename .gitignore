@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules
+packages/**/build
+packages/**/main
+packages/**/module
+launch.json
+.vscode/settings.json
+.idea/
+.DS_Store
+.eslintcache
+*.log
